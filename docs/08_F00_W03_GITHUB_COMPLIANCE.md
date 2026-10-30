@@ -14,9 +14,9 @@
 
 **Gate decision:** Git / GitHub / public-license / `.kiro` compliance = `PASS`.
 
-**Status:** CLOSED / PASS  
-**Project:** Paper2App  
-**Competition:** Kiroween 2026  
+**Status:** CLOSED / PASS
+**Project:** Paper2App
+**Competition:** Kiroween 2026
 **Category:** Frankenstein
 
 ## Purpose
