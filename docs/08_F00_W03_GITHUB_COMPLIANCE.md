@@ -73,18 +73,18 @@ Open-source license:
 
 ## GitHub publication acceptance
 
-The following remain required before this work package can close:
+The following checks were verified before this work package closed:
 
-- [ ] Public GitHub repository created during the competition submission period.
-- [ ] Local `origin` points to that repository.
-- [ ] `main` pushed successfully.
-- [ ] Root commit `70635f8d446efea4a04be545f065727a0d8be2d2` is visible remotely.
-- [ ] Repository visibility is PUBLIC.
-- [ ] GitHub recognizes the MIT license.
-- [ ] `/.kiro/steering/product.md` is visible remotely.
-- [ ] `/.kiro/steering/engineering.md` is visible remotely.
-- [ ] `.gitignore` does not exclude `/.kiro`.
-- [ ] Remote working baseline and local HEAD agree.
+- [x] Public GitHub repository created during the competition submission period.
+- [x] Local `origin` points to that repository.
+- [x] `main` pushed successfully.
+- [x] Root commit `70635f8d446efea4a04be545f065727a0d8be2d2` is visible remotely.
+- [x] Repository visibility is PUBLIC.
+- [x] GitHub recognizes the MIT license.
+- [x] `/.kiro/steering/product.md` is visible remotely.
+- [x] `/.kiro/steering/engineering.md` is visible remotely.
+- [x] `.gitignore` does not exclude `/.kiro`.
+- [x] Remote working baseline and local HEAD agree.
 
 ## Closure rule
 

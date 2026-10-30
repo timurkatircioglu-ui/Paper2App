@@ -9,12 +9,12 @@
 ### M0 — Competition & Product Lock
 
 #### F00 — Competition Contract & Fresh Repo
-- F00-W01 Competition Rule Lock & Fresh Repo Bootstrap
-- F00-W02 Official Rules Re-audit when published
-- F00-W03 Git/GitHub/public-license/.kiro compliance gate
-- F00-W04 Competition baseline closure
+- [x] F00-W01 Competition Rule Lock & Fresh Repo Bootstrap — CLOSED / PASS
+- [ ] F00-W02 Official Rules Re-audit when published — EVENT-DRIVEN / PENDING PUBLICATION
+- [x] F00-W03 Git/GitHub/public-license/.kiro compliance gate — CLOSED / PASS
+- [x] F00-W04 Competition baseline closure — CLOSED / PASS
 
-Exit: competition eligibility and repository baseline are evidenced.
+Exit: PASS — current competition eligibility and repository baseline are evidenced. F00-W02 remains a standing mandatory re-audit obligation when the full Official Rules are published.
 
 #### F01 — Product Contract
 - problem and audience lock
