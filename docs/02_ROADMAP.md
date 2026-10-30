@@ -17,14 +17,12 @@
 Exit: PASS — current competition eligibility and repository baseline are evidenced. F00-W02 remains a standing mandatory re-audit obligation when the full Official Rules are published.
 
 #### F01 — Product Contract
-- problem and audience lock
-- one-line hook
-- primary/secondary demo lock
-- minimum lovable product
-- non-goals
-- success metrics
+- [x] F01-W01 Problem & Audience Lock — CLOSED / PASS
+- [x] F01-W02 Product Promise & Demo Lock — CLOSED / PASS
+- [x] F01-W03 Minimum Lovable Product & Non-Goals Lock — CLOSED / PASS
+- [x] F01-W04 Success Metrics & Product Contract Closure — CLOSED / PASS
 
-Exit: a judge can understand Paper2App in one sentence and the team knows exactly what to build.
+Exit: PASS — a judge can understand Paper2App in one sentence and the team knows exactly what to build. Canonical contract: `docs/10_F01_PRODUCT_CONTRACT.md`.
 
 ### M1 — Paper Understanding Engine
 

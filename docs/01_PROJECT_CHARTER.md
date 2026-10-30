@@ -2,7 +2,7 @@
 
 **Competition:** Kiroween 2026
 **Category:** Frankenstein
-**Status:** Competition build authorized
+**Status:** Product contract locked — F01 CLOSED / PASS
 
 ## One-line hook
 
@@ -13,6 +13,14 @@
 Many real workflows still live on paper: checkout forms, inspection sheets, visitor forms, checklists, request forms and other operational documents. Turning each of these into software normally requires requirements analysis, schema design, UI work, validation logic and persistence engineering.
 
 Paper2App compresses that transformation into one visible flow while preserving explicit contracts and deterministic gates.
+
+## Primary audience
+
+Competition V1 is primarily for small operational teams and process owners who repeatedly use paper forms or workflow sheets and want a lightweight working digital application without commissioning a custom software project.
+
+Representative users include equipment/inventory coordinators, inspection or safety teams, office/facility operations, small organizations with recurring paper workflows, and internal process owners validating whether a paper process should become software.
+
+Secondary users include makers, developers, and internal-tool builders who want a fast paper-to-application bootstrap that remains inspectable and contract-driven.
 
 ## Core transformation
 

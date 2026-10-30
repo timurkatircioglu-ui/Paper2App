@@ -19,6 +19,12 @@ One-line hook:
 
 `Paper/photo -> understand structure and intent -> DocumentIR -> AppSpec -> deterministic validation -> schema-driven runtime -> persistent working app`
 
+## Primary audience
+
+Competition V1 primarily serves small operational teams and process owners who repeatedly use paper forms or workflow sheets and want a lightweight working digital application without commissioning a custom software project.
+
+Secondary users include makers, developers, and internal-tool builders who want a fast paper-to-application bootstrap that remains inspectable and contract-driven.
+
 ## Product priorities
 
 1. End-to-end usefulness over architectural spectacle.
