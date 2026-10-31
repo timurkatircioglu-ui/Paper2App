@@ -32,8 +32,8 @@ Exit: PASS — a judge can understand Paper2App in one sentence and the team kno
 - [x] F02-W03 Visual Structure Observation Contract — CLOSED / PASS
 - [x] F02-W04 Vision/OCR Provider Ports & Acceptance — CLOSED / PASS
 - [x] F02-W05 Observation Fusion & DocumentIR Assembly — CLOSED / PASS
-- [ ] F02-W06 Deterministic DocumentIR Validation & Golden Set — READY TO START
-- [ ] F02-W07 Generalization Benchmark & F02 Closure — PLANNED
+- [x] F02-W06 Deterministic DocumentIR Validation & Golden Set — CLOSED / PASS
+- [ ] F02-W07 Generalization Benchmark & F02 Closure — READY TO START
 
 Exit: at least two selected document types convert into stable validated DocumentIR structures. Canonical phase plan: `docs/11_F02_INPUT_UNDERSTANDING_PLAN.md`.
 

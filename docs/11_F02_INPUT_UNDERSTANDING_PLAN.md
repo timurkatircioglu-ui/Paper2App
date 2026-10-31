@@ -120,7 +120,7 @@ Closure evidence: `docs/15_F02_W05_OBSERVATION_FUSION_DOCUMENT_IR_ASSEMBLY.md`.
 
 ### F02-W06 — Deterministic DocumentIR Validation & Golden Set
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -130,9 +130,11 @@ Target:
 - failure taxonomy and benchmark receipts;
 - only valid DocumentIR leaves the F02 pipeline.
 
+Closure evidence: `docs/16_F02_W06_DOCUMENT_IR_VALIDATION_GOLDEN_SET.md`.
+
 ### F02-W07 — Generalization Benchmark & F02 Closure
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
@@ -157,8 +159,8 @@ Target:
 
 ## Current phase state
 
-F02 implementation has started.
+F02 implementation is active and W01–W06 are closed with evidence.
 
-**Completed:** F02-W01.
+**Completed:** F02-W01 through F02-W06.
 
-**Next:** F02-W02 — Deterministic Image Decode & Normalization.
+**Next:** F02-W07 — Generalization Benchmark & F02 Closure.

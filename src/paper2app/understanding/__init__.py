@@ -29,7 +29,7 @@ from .document_ir import (
     TextEvidence,
     UncertaintyCode,
 )
-from .fusion import NormalizedImageView, assemble_document_ir
+from .fusion import NormalizedImageView, assemble_document_ir, assemble_validated_document_ir
 from .providers import (
     OCRObservationBatch,
     OCRProvider,
@@ -46,6 +46,16 @@ from .providers import (
     run_ocr_provider,
     run_vision_provider,
 )
+from .validation import (
+    DocumentIRValidationError,
+    DocumentIRValidationReport,
+    ValidationIssue,
+    ValidationIssueCode,
+    ValidationSeverity,
+    ValidationStatus,
+    require_valid_document_ir,
+    validate_document_ir,
+)
 
 __all__ = [
     "DOCUMENT_IR_SCHEMA",
@@ -54,6 +64,8 @@ __all__ = [
     "DocumentDescriptor",
     "DocumentElement",
     "DocumentIR",
+    "DocumentIRValidationError",
+    "DocumentIRValidationReport",
     "DocumentPage",
     "DocumentRegion",
     "DocumentRelation",
@@ -82,11 +94,18 @@ __all__ = [
     "StructuralRoleHint",
     "TextEvidence",
     "UncertaintyCode",
+    "ValidationIssue",
+    "ValidationIssueCode",
+    "ValidationSeverity",
+    "ValidationStatus",
     "VisionProvider",
     "VisionProviderResult",
     "VisualKind",
     "VisualObservationBatch",
     "assemble_document_ir",
+    "assemble_validated_document_ir",
+    "require_valid_document_ir",
     "run_ocr_provider",
     "run_vision_provider",
+    "validate_document_ir",
 ]

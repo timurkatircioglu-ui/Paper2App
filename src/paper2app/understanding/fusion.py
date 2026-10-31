@@ -23,6 +23,7 @@ from .document_ir import (
 )
 from .observations import NormalizedBox, StructuralRoleHint, VisualKind
 from .providers import OCRProviderResult, ProviderKind, VisionProviderResult
+from .validation import require_valid_document_ir
 
 
 _TEXT_MATCH_THRESHOLD = 0.50
@@ -306,3 +307,13 @@ def assemble_document_ir(
         relations=tuple(relations),
         uncertainties=tuple(uncertainties),
     )
+
+
+def assemble_validated_document_ir(
+    image: NormalizedImageView,
+    vision: VisionProviderResult,
+    ocr: OCRProviderResult | None = None,
+) -> DocumentIR:
+    """Authoritative F02 egress: assemble, validate, then release DocumentIR."""
+
+    return require_valid_document_ir(assemble_document_ir(image=image, vision=vision, ocr=ocr))
