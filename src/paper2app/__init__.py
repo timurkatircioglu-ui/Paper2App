@@ -1,3 +1,3 @@
 """Paper2App core package."""
 
-__all__ = ["input"]
+__all__ = ["input", "understanding"]

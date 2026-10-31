@@ -78,7 +78,7 @@ Closure evidence: `docs/12_F02_W02_IMAGE_NORMALIZATION.md`.
 
 ### F02-W03 — Visual Structure Observation Contract
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -88,9 +88,11 @@ Target:
 - text/label, input-box, checkbox/radio, signature/notes and section candidates;
 - `unknown` as a legal observation.
 
+Closure evidence: `docs/13_F02_W03_VISUAL_STRUCTURE_OBSERVATION_CONTRACT.md`.
+
 ### F02-W04 — Vision/OCR Provider Ports & Acceptance
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
