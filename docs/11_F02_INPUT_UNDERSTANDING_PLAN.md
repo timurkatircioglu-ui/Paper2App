@@ -106,7 +106,7 @@ Closure evidence: `docs/14_F02_W04_VISION_OCR_PROVIDER_PORTS.md`.
 
 ### F02-W05 — Observation Fusion & DocumentIR Assembly
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -116,9 +116,11 @@ Target:
 - construct DocumentIR without application/runtime decisions;
 - preserve evidence/provenance for important inferences.
 
+Closure evidence: `docs/15_F02_W05_OBSERVATION_FUSION_DOCUMENT_IR_ASSEMBLY.md`.
+
 ### F02-W06 — Deterministic DocumentIR Validation & Golden Set
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
