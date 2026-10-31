@@ -27,15 +27,15 @@ Exit: PASS — a judge can understand Paper2App in one sentence and the team kno
 ### M1 — Paper Understanding Engine
 
 #### F02 — Input Understanding
-- input contract
-- image normalization
-- visual/text extraction
-- field/region detection
-- DocumentIR implementation
-- confidence/uncertainty
-- deterministic DocumentIR validation
+- [x] F02-W01 Input Gate & Source Contract — CLOSED / PASS
+- [ ] F02-W02 Deterministic Image Decode & Normalization — READY TO START
+- [ ] F02-W03 Visual Structure Observation Contract — PLANNED
+- [ ] F02-W04 Vision/OCR Provider Ports & Acceptance — PLANNED
+- [ ] F02-W05 Observation Fusion & DocumentIR Assembly — PLANNED
+- [ ] F02-W06 Deterministic DocumentIR Validation & Golden Set — PLANNED
+- [ ] F02-W07 Generalization Benchmark & F02 Closure — PLANNED
 
-Exit: at least two selected document types convert into stable validated DocumentIR structures.
+Exit: at least two selected document types convert into stable validated DocumentIR structures. Canonical phase plan: `docs/11_F02_INPUT_UNDERSTANDING_PLAN.md`.
 
 ### M2 — Cognitive Transformation
 
