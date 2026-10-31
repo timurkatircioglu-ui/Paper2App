@@ -28,8 +28,8 @@ Exit: PASS — a judge can understand Paper2App in one sentence and the team kno
 
 #### F02 — Input Understanding
 - [x] F02-W01 Input Gate & Source Contract — CLOSED / PASS
-- [ ] F02-W02 Deterministic Image Decode & Normalization — READY TO START
-- [ ] F02-W03 Visual Structure Observation Contract — PLANNED
+- [x] F02-W02 Deterministic Image Decode & Normalization — CLOSED / PASS
+- [ ] F02-W03 Visual Structure Observation Contract — READY TO START
 - [ ] F02-W04 Vision/OCR Provider Ports & Acceptance — PLANNED
 - [ ] F02-W05 Observation Fusion & DocumentIR Assembly — PLANNED
 - [ ] F02-W06 Deterministic DocumentIR Validation & Golden Set — PLANNED

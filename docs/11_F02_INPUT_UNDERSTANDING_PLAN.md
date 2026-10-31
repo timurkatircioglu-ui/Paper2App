@@ -50,7 +50,7 @@ Acceptance evidence:
 - configured input byte bound: PASS;
 - safe basename handling: PASS.
 
-Deferred to W02:
+Deferred beyond W01:
 
 - actual pixel decode;
 - exact image dimensions from decoded image;
@@ -62,7 +62,7 @@ Deferred to W02:
 
 ### F02-W02 — Deterministic Image Decode & Normalization
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -74,9 +74,11 @@ Target:
 - add crop/perspective correction only where deterministic evidence justifies it;
 - emit normalization metadata required by DocumentIR source provenance.
 
+Closure evidence: `docs/12_F02_W02_IMAGE_NORMALIZATION.md`.
+
 ### F02-W03 — Visual Structure Observation Contract
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 

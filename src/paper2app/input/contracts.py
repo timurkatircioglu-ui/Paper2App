@@ -21,6 +21,7 @@ class CaptureKind(str, Enum):
 class InputFailureCode(str, Enum):
     INPUT_UNSUPPORTED = "INPUT_UNSUPPORTED"
     IMAGE_CORRUPT = "IMAGE_CORRUPT"
+    IMAGE_TOO_SMALL = "IMAGE_TOO_SMALL"
 
 
 @dataclass(frozen=True, slots=True)
@@ -55,6 +56,51 @@ class AcceptedSource:
     byte_size: int
     filename: str | None
     capture_kind: CaptureKind
+
+
+@dataclass(frozen=True, slots=True)
+class NormalizationPolicy:
+    """Deterministic bounds for image decode and canonical normalization."""
+
+    min_short_edge: int = 320
+    max_long_edge: int = 2048
+    max_pixels: int = 24_000_000
+
+    def __post_init__(self) -> None:
+        if self.min_short_edge < 1:
+            raise ValueError("min_short_edge must be >= 1")
+        if self.max_long_edge < self.min_short_edge:
+            raise ValueError("max_long_edge must be >= min_short_edge")
+        if self.max_pixels < self.min_short_edge * self.min_short_edge:
+            raise ValueError("max_pixels is too small for the configured minimum edge")
+
+
+DEFAULT_NORMALIZATION_POLICY = NormalizationPolicy()
+
+
+@dataclass(frozen=True, slots=True)
+class NormalizedImage:
+    source: AcceptedSource
+    original_width: int
+    original_height: int
+    normalized_width: int
+    normalized_height: int
+    exif_orientation: int | None
+    orientation_applied: bool
+    resized: bool
+    normalized_media_type: SupportedMediaType
+    normalized_sha256: str
+    normalized_content: bytes
+    operations: tuple[str, ...]
+
+
+class ImageNormalizationError(ValueError):
+    """Structured deterministic failure from decode/normalization."""
+
+    def __init__(self, code: InputFailureCode, message: str) -> None:
+        super().__init__(message)
+        self.code = code
+        self.message = message
 
 
 class InputGateError(ValueError):
