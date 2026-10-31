@@ -134,7 +134,7 @@ Closure evidence: `docs/16_F02_W06_DOCUMENT_IR_VALIDATION_GOLDEN_SET.md`.
 
 ### F02-W07 — Generalization Benchmark & F02 Closure
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -143,6 +143,10 @@ Target:
 - no per-demo hard-coded pipeline branch;
 - record valid DocumentIR rate, latency and failure evidence;
 - close F02 only when roadmap exit is evidenced.
+
+Closure evidence: `docs/17_F02_W07_GENERALIZATION_BENCHMARK_AND_CLOSURE.md`.
+
+Scope note: W07 proves contract/runtime generalization with deterministic provider fixtures; it does not claim real-world vision-model accuracy.
 
 ## F02 invariants
 
@@ -159,8 +163,8 @@ Target:
 
 ## Current phase state
 
-F02 implementation is active and W01–W06 are closed with evidence.
+F02 is CLOSED / PASS with W01–W07 evidence complete.
 
-**Completed:** F02-W01 through F02-W06.
+**Completed:** F02-W01 through F02-W07.
 
-**Next:** F02-W07 — Generalization Benchmark & F02 Closure.
+**Next:** F03 — App Specification Synthesis.

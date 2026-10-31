@@ -33,9 +33,9 @@ Exit: PASS — a judge can understand Paper2App in one sentence and the team kno
 - [x] F02-W04 Vision/OCR Provider Ports & Acceptance — CLOSED / PASS
 - [x] F02-W05 Observation Fusion & DocumentIR Assembly — CLOSED / PASS
 - [x] F02-W06 Deterministic DocumentIR Validation & Golden Set — CLOSED / PASS
-- [ ] F02-W07 Generalization Benchmark & F02 Closure — READY TO START
+- [x] F02-W07 Generalization Benchmark & F02 Closure — CLOSED / PASS
 
-Exit: at least two selected document types convert into stable validated DocumentIR structures. Canonical phase plan: `docs/11_F02_INPUT_UNDERSTANDING_PLAN.md`.
+Exit: PASS — two materially different workflow shapes traverse the same provider/fusion/validation path and produce stable validated DocumentIR structures without per-demo production branches. Canonical closure evidence: `docs/17_F02_W07_GENERALIZATION_BENCHMARK_AND_CLOSURE.md`.
 
 ### M2 — Cognitive Transformation
 
