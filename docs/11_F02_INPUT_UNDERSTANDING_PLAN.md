@@ -92,7 +92,7 @@ Closure evidence: `docs/13_F02_W03_VISUAL_STRUCTURE_OBSERVATION_CONTRACT.md`.
 
 ### F02-W04 — Vision/OCR Provider Ports & Acceptance
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -102,9 +102,11 @@ Target:
 - OCR remains exact-text aid, not semantic authority;
 - provider/prompt selection benchmarked rather than hard-coded by popularity.
 
+Closure evidence: `docs/14_F02_W04_VISION_OCR_PROVIDER_PORTS.md`.
+
 ### F02-W05 — Observation Fusion & DocumentIR Assembly
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
