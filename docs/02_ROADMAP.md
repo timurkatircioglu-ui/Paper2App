@@ -45,9 +45,9 @@ Exit: PASS — two materially different workflow shapes traverse the same provid
 - [x] F03-W03 Views, Actions & Persistence Policy — CLOSED / PASS
 - [x] F03-W04 Validation, Workflow, Provenance & Uncertainty Synthesis — CLOSED / PASS
 - [x] F03-W05 Deterministic AppSpec Validation & Runtime Capability Gate — CLOSED / PASS
-- [ ] F03-W06 Generalization Benchmark & F03 Closure — READY TO START
+- [x] F03-W06 Generalization Benchmark & F03 Closure — CLOSED / PASS
 
-Exit: validated AppSpec exists independently of rendering/runtime implementation. Canonical phase plan: `docs/18_F03_APP_SPEC_SYNTHESIS_PLAN.md`.
+Exit: PASS — two materially different validated DocumentIR inputs produce materially different, stable, runtime-capability-compatible validated AppSpecs through the same production synthesis/validation stack with no per-demo production branch. Canonical closure evidence: `docs/24_F03_W06_GENERALIZATION_BENCHMARK_AND_CLOSURE.md`.
 
 ### M3 — App Factory
 

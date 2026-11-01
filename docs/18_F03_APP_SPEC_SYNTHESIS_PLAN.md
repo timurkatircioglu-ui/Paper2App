@@ -89,7 +89,7 @@ Closure evidence: `docs/23_F03_W05_APPSPEC_VALIDATION_RUNTIME_CAPABILITY_GATE.md
 
 ### F03-W06 — Generalization Benchmark & F03 Closure
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -98,6 +98,8 @@ Target:
 - no per-demo production synthesis/runtime branch;
 - structural output is stable under deterministic fixtures;
 - close F03 only when the roadmap exit is evidenced.
+
+Closure evidence: `docs/24_F03_W06_GENERALIZATION_BENCHMARK_AND_CLOSURE.md`.
 
 ## F03 invariants
 
@@ -114,8 +116,8 @@ Target:
 
 ## Current phase state
 
-F03 is ACTIVE.
+F03 is CLOSED / PASS.
 
-**Completed:** F03-W01 through F03-W05.
+**Completed:** F03-W01 through F03-W06.
 
-**Next:** F03-W06 — Generalization Benchmark & F03 Closure.
+**Next:** F04 — Generic Runtime preflight and bounded work-package decomposition.
