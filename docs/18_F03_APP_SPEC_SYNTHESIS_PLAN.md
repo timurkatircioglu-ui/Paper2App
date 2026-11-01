@@ -60,7 +60,7 @@ Closure evidence: `docs/21_F03_W03_VIEWS_ACTIONS_PERSISTENCE_POLICY.md`.
 
 ### F03-W04 — Validation, Workflow, Provenance & Uncertainty Synthesis
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -70,9 +70,11 @@ Target:
 - propagate/translate critical and non-critical uncertainty explicitly;
 - never emit arbitrary executable formulas or scripts.
 
+Closure evidence: `docs/22_F03_W04_VALIDATION_WORKFLOW_PROVENANCE_UNCERTAINTY.md`.
+
 ### F03-W05 — Deterministic AppSpec Validation & Runtime Capability Gate
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
@@ -112,6 +114,6 @@ Target:
 
 F03 is ACTIVE.
 
-**Completed:** F03-W01 through F03-W03.
+**Completed:** F03-W01 through F03-W04.
 
-**Next:** F03-W04 — Validation, Workflow, Provenance & Uncertainty Synthesis.
+**Next:** F03-W05 — Deterministic AppSpec Validation & Runtime Capability Gate.

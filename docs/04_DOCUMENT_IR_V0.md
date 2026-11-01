@@ -151,6 +151,8 @@ Initial bounded relation vocabulary:
 
 Example: text `Returned` may `labels` an adjacent checkbox.
 
+Directional clarification for `follows`: when `follows` is used as ordered workflow evidence, `source_id` is the predecessor and `target_id` is the successor. This direction is part of the bounded DocumentIR contract so downstream synthesis never guesses order.
+
 ## Evidence
 
 Evidence records observable support rather than private model reasoning.

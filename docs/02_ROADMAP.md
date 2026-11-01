@@ -43,8 +43,8 @@ Exit: PASS — two materially different workflow shapes traverse the same provid
 - [x] F03-W01 AppSpec Contract & Bounded Vocabulary — CLOSED / PASS
 - [x] F03-W02 Deterministic Entity & Field Synthesis — CLOSED / PASS
 - [x] F03-W03 Views, Actions & Persistence Policy — CLOSED / PASS
-- [ ] F03-W04 Validation, Workflow, Provenance & Uncertainty Synthesis — READY TO START
-- [ ] F03-W05 Deterministic AppSpec Validation & Runtime Capability Gate — PLANNED
+- [x] F03-W04 Validation, Workflow, Provenance & Uncertainty Synthesis — CLOSED / PASS
+- [ ] F03-W05 Deterministic AppSpec Validation & Runtime Capability Gate — READY TO START
 - [ ] F03-W06 Generalization Benchmark & F03 Closure — PLANNED
 
 Exit: validated AppSpec exists independently of rendering/runtime implementation. Canonical phase plan: `docs/18_F03_APP_SPEC_SYNTHESIS_PLAN.md`.

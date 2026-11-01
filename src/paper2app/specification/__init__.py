@@ -27,12 +27,14 @@ from .app_spec import (
 )
 from .synthesis import EntityFieldSynthesisResult, FieldSynthesisDecision, synthesize_entity_fields
 from .surface_policy import ApplicationSurfaceSynthesisResult, synthesize_views_actions_persistence
+from .behavior_synthesis import ValidationWorkflowSynthesisResult, synthesize_validations_workflows
 
 __all__ = [
     "APP_SPEC_SCHEMA",
     "APP_SPEC_SCHEMA_VERSION",
     "ActionKind",
     "ApplicationSurfaceSynthesisResult",
+    "ValidationWorkflowSynthesisResult",
     "AppAction",
     "AppEntity",
     "AppField",
@@ -57,4 +59,5 @@ __all__ = [
     "WorkflowTransition",
     "synthesize_entity_fields",
     "synthesize_views_actions_persistence",
+    "synthesize_validations_workflows",
 ]
