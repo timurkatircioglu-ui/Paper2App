@@ -25,6 +25,7 @@ from .app_spec import (
     WorkflowState,
     WorkflowTransition,
 )
+from .synthesis import EntityFieldSynthesisResult, FieldSynthesisDecision, synthesize_entity_fields
 
 __all__ = [
     "APP_SPEC_SCHEMA",
@@ -41,6 +42,8 @@ __all__ = [
     "AppWorkflow",
     "Capability",
     "ConditionOperator",
+    "EntityFieldSynthesisResult",
+    "FieldSynthesisDecision",
     "FieldType",
     "PersistenceRequirement",
     "ProvenanceClass",
@@ -50,4 +53,5 @@ __all__ = [
     "WorkflowCondition",
     "WorkflowState",
     "WorkflowTransition",
+    "synthesize_entity_fields",
 ]

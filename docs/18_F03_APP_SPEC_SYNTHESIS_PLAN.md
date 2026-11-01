@@ -31,7 +31,7 @@ Closure evidence: `docs/19_F03_W01_APP_SPEC_CONTRACT.md`.
 
 ### F03-W02 — Deterministic Entity & Field Synthesis
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -42,9 +42,11 @@ Target:
 - use `unknown`/explicit uncertainty instead of invented certainty;
 - avoid demo-specific synthesis branches.
 
+Closure evidence: `docs/20_F03_W02_ENTITY_FIELD_SYNTHESIS.md`.
+
 ### F03-W03 — Views, Actions & Persistence Policy
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
@@ -108,6 +110,6 @@ Target:
 
 F03 is ACTIVE.
 
-**Completed:** F03-W01.
+**Completed:** F03-W01 through F03-W02.
 
-**Next:** F03-W02 — Deterministic Entity & Field Synthesis.
+**Next:** F03-W03 — Views, Actions & Persistence Policy.
