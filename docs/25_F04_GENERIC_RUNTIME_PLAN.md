@@ -62,7 +62,7 @@ Closure evidence: `docs/26_F04_W01_RUNTIME_MANIFEST_APPSPEC_REGISTRY.md`.
 
 ### F04-W02 — Authoritative Record Contract & Deterministic Validation
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -80,9 +80,11 @@ Acceptance:
 - undeclared fields are rejected;
 - validation remains generic and contains no demo labels or branches.
 
+Closure evidence: `docs/27_F04_W02_AUTHORITATIVE_RECORD_VALIDATION.md`.
+
 ### F04-W03 — Generic SQLite Runtime Store & Application Isolation
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
@@ -247,6 +249,6 @@ Additional codes may be introduced only when a concrete deterministic failure ca
 
 F04 is ACTIVE.
 
-**Completed:** preflight, bounded work-package decomposition, and F04-W01.
+**Completed:** preflight, bounded work-package decomposition, F04-W01, and F04-W02.
 
-**Next:** F04-W02 — Authoritative Record Contract & Deterministic Validation.
+**Next:** F04-W03 — Generic SQLite Runtime Store & Application Isolation.
