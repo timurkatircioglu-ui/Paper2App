@@ -52,8 +52,8 @@ Exit: PASS — two materially different validated DocumentIR inputs produce mate
 ### M3 — App Factory
 
 #### F04 — Generic Runtime
-- [ ] F04-W01 Runtime Manifest & Validated AppSpec Registry — READY TO START
-- [ ] F04-W02 Authoritative Record Contract & Deterministic Validation — PLANNED
+- [x] F04-W01 Runtime Manifest & Validated AppSpec Registry — CLOSED / PASS
+- [ ] F04-W02 Authoritative Record Contract & Deterministic Validation — READY TO START
 - [ ] F04-W03 Generic SQLite Runtime Store & Application Isolation — PLANNED
 - [ ] F04-W04 Generic Runtime Service API Foundation — PLANNED
 - [ ] F04-W05 Frontend Runtime Foundation & Field Renderer Registry — PLANNED

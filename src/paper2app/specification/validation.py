@@ -77,10 +77,20 @@ class RuntimeCapabilityProfile:
             raise ValueError("supported_capabilities must not contain duplicates")
 
 
-COMPETITION_V1_RUNTIME_PROFILE = RuntimeCapabilityProfile(
-    profile_id="competition_v1",
-    supported_capabilities=tuple(Capability),
-)
+def competition_v1_runtime_profile() -> RuntimeCapabilityProfile:
+    """Derive the default AppSpec capability profile from the concrete runtime manifest."""
+
+    from paper2app.runtime.manifest import COMPETITION_V1_RUNTIME_MANIFEST
+
+    return COMPETITION_V1_RUNTIME_MANIFEST.capability_profile()
+
+
+def __getattr__(name: str):
+    # Backward-compatible lazy access without creating an import cycle or a
+    # second independently maintained capability list.
+    if name == "COMPETITION_V1_RUNTIME_PROFILE":
+        return competition_v1_runtime_profile()
+    raise AttributeError(name)
 
 
 @dataclass(frozen=True, slots=True)
@@ -243,10 +253,12 @@ def _check_duplicate_ids(app_spec: AppSpec, issues: list[AppSpecValidationIssue]
 
 def validate_app_spec(
     app_spec: AppSpec,
-    runtime_profile: RuntimeCapabilityProfile = COMPETITION_V1_RUNTIME_PROFILE,
+    runtime_profile: RuntimeCapabilityProfile | None = None,
 ) -> AppSpecValidationReport:
     if not isinstance(app_spec, AppSpec):
         raise TypeError("app_spec must be an AppSpec")
+    if runtime_profile is None:
+        runtime_profile = competition_v1_runtime_profile()
     if not isinstance(runtime_profile, RuntimeCapabilityProfile):
         raise TypeError("runtime_profile must be a RuntimeCapabilityProfile")
 
@@ -408,7 +420,7 @@ def validate_app_spec(
 
 def require_valid_app_spec(
     app_spec: AppSpec,
-    runtime_profile: RuntimeCapabilityProfile = COMPETITION_V1_RUNTIME_PROFILE,
+    runtime_profile: RuntimeCapabilityProfile | None = None,
 ) -> AppSpec:
     report = validate_app_spec(app_spec, runtime_profile)
     if not report.valid:
@@ -455,6 +467,6 @@ def assemble_app_spec_candidate(document_ir: DocumentIR) -> AppSpec:
 
 def synthesize_validated_app_spec(
     document_ir: DocumentIR,
-    runtime_profile: RuntimeCapabilityProfile = COMPETITION_V1_RUNTIME_PROFILE,
+    runtime_profile: RuntimeCapabilityProfile | None = None,
 ) -> AppSpec:
     return require_valid_app_spec(assemble_app_spec_candidate(document_ir), runtime_profile)

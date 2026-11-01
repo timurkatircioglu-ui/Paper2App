@@ -36,7 +36,7 @@ Exact dependency versions are intentionally deferred to the work package that in
 
 ### F04-W01 — Runtime Manifest & Validated AppSpec Registry
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -58,9 +58,11 @@ Acceptance:
 - same app may retain immutable historical registrations while one registration is active;
 - no persistence/HTTP/UI implementation is pulled into W01.
 
+Closure evidence: `docs/26_F04_W01_RUNTIME_MANIFEST_APPSPEC_REGISTRY.md`.
+
 ### F04-W02 — Authoritative Record Contract & Deterministic Validation
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
@@ -245,6 +247,6 @@ Additional codes may be introduced only when a concrete deterministic failure ca
 
 F04 is ACTIVE.
 
-**Completed:** preflight and bounded work-package decomposition.
+**Completed:** preflight, bounded work-package decomposition, and F04-W01.
 
-**Next:** F04-W01 — Runtime Manifest & Validated AppSpec Registry.
+**Next:** F04-W02 — Authoritative Record Contract & Deterministic Validation.
