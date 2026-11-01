@@ -28,10 +28,25 @@ from .app_spec import (
 from .synthesis import EntityFieldSynthesisResult, FieldSynthesisDecision, synthesize_entity_fields
 from .surface_policy import ApplicationSurfaceSynthesisResult, synthesize_views_actions_persistence
 from .behavior_synthesis import ValidationWorkflowSynthesisResult, synthesize_validations_workflows
+from .validation import (
+    COMPETITION_V1_RUNTIME_PROFILE,
+    AppSpecValidationError,
+    AppSpecValidationIssue,
+    AppSpecValidationIssueCode,
+    AppSpecValidationReport,
+    AppSpecValidationSeverity,
+    AppSpecValidationStatus,
+    RuntimeCapabilityProfile,
+    assemble_app_spec_candidate,
+    require_valid_app_spec,
+    synthesize_validated_app_spec,
+    validate_app_spec,
+)
 
 __all__ = [
     "APP_SPEC_SCHEMA",
     "APP_SPEC_SCHEMA_VERSION",
+    "COMPETITION_V1_RUNTIME_PROFILE",
     "ActionKind",
     "ApplicationSurfaceSynthesisResult",
     "ValidationWorkflowSynthesisResult",
@@ -41,6 +56,12 @@ __all__ = [
     "AppIdentity",
     "AppSpec",
     "AppSpecUncertainty",
+    "AppSpecValidationError",
+    "AppSpecValidationIssue",
+    "AppSpecValidationIssueCode",
+    "AppSpecValidationReport",
+    "AppSpecValidationSeverity",
+    "AppSpecValidationStatus",
     "AppValidation",
     "AppView",
     "AppWorkflow",
@@ -52,12 +73,17 @@ __all__ = [
     "PersistenceRequirement",
     "ProvenanceClass",
     "ProvenanceRecord",
+    "RuntimeCapabilityProfile",
     "ValidationRuleKind",
     "ViewKind",
     "WorkflowCondition",
     "WorkflowState",
     "WorkflowTransition",
+    "assemble_app_spec_candidate",
+    "require_valid_app_spec",
     "synthesize_entity_fields",
     "synthesize_views_actions_persistence",
+    "synthesize_validated_app_spec",
     "synthesize_validations_workflows",
+    "validate_app_spec",
 ]

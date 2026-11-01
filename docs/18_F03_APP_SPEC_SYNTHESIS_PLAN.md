@@ -74,7 +74,7 @@ Closure evidence: `docs/22_F03_W04_VALIDATION_WORKFLOW_PROVENANCE_UNCERTAINTY.md
 
 ### F03-W05 — Deterministic AppSpec Validation & Runtime Capability Gate
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -85,9 +85,11 @@ Target:
 - critical unresolved uncertainty must block executable status;
 - expose `PASS`, `PASS_WITH_WARNINGS`, `FAIL`.
 
+Closure evidence: `docs/23_F03_W05_APPSPEC_VALIDATION_RUNTIME_CAPABILITY_GATE.md`.
+
 ### F03-W06 — Generalization Benchmark & F03 Closure
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
@@ -114,6 +116,6 @@ Target:
 
 F03 is ACTIVE.
 
-**Completed:** F03-W01 through F03-W04.
+**Completed:** F03-W01 through F03-W05.
 
-**Next:** F03-W05 — Deterministic AppSpec Validation & Runtime Capability Gate.
+**Next:** F03-W06 — Generalization Benchmark & F03 Closure.
