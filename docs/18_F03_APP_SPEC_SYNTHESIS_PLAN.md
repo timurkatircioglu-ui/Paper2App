@@ -120,4 +120,4 @@ F03 is CLOSED / PASS.
 
 **Completed:** F03-W01 through F03-W06.
 
-**Next:** F04 — Generic Runtime preflight and bounded work-package decomposition.
+**Next:** F04-W01 — Runtime Manifest & Validated AppSpec Registry.

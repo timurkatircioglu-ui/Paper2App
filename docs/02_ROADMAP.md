@@ -52,18 +52,16 @@ Exit: PASS — two materially different validated DocumentIR inputs produce mate
 ### M3 — App Factory
 
 #### F04 — Generic Runtime
-- capability manifest
-- AppSpec registry
-- field renderer registry
-- dynamic forms
-- list/detail views
-- generic backend API
-- generic SQLite JSON record store
-- authoritative record validation
-- search/filter
-- bounded workflow transitions
+- [ ] F04-W01 Runtime Manifest & Validated AppSpec Registry — READY TO START
+- [ ] F04-W02 Authoritative Record Contract & Deterministic Validation — PLANNED
+- [ ] F04-W03 Generic SQLite Runtime Store & Application Isolation — PLANNED
+- [ ] F04-W04 Generic Runtime Service API Foundation — PLANNED
+- [ ] F04-W05 Frontend Runtime Foundation & Field Renderer Registry — PLANNED
+- [ ] F04-W06 Schema-Driven Views, CRUD UX, Search & Filter — PLANNED
+- [ ] F04-W07 Allowlisted Action Engine & Bounded Workflow Runtime — PLANNED
+- [ ] F04-W08 Persistence, Two-AppSpec Generalization Benchmark & F04 Closure — PLANNED
 
-Exit: supported validated AppSpecs execute without per-app source changes.
+Exit: supported validated AppSpecs execute as persistent working applications through one runtime with zero per-app source changes. Canonical phase plan: `docs/25_F04_GENERIC_RUNTIME_PLAN.md`.
 
 #### F05 — Closed-Loop Paper2App
 - upload/capture
