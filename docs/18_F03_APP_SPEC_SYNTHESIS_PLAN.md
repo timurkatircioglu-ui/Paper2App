@@ -46,7 +46,7 @@ Closure evidence: `docs/20_F03_W02_ENTITY_FIELD_SYNTHESIS.md`.
 
 ### F03-W03 — Views, Actions & Persistence Policy
 
-**Status:** READY TO START
+**Status:** CLOSED / PASS
 
 Target:
 
@@ -56,9 +56,11 @@ Target:
 - apply bounded Competition V1 persistence product policy;
 - distinguish product-policy defaults from document-derived facts.
 
+Closure evidence: `docs/21_F03_W03_VIEWS_ACTIONS_PERSISTENCE_POLICY.md`.
+
 ### F03-W04 — Validation, Workflow, Provenance & Uncertainty Synthesis
 
-**Status:** PLANNED
+**Status:** READY TO START
 
 Target:
 
@@ -110,6 +112,6 @@ Target:
 
 F03 is ACTIVE.
 
-**Completed:** F03-W01 through F03-W02.
+**Completed:** F03-W01 through F03-W03.
 
-**Next:** F03-W03 — Views, Actions & Persistence Policy.
+**Next:** F03-W04 — Validation, Workflow, Provenance & Uncertainty Synthesis.
